@@ -36,7 +36,7 @@ const Sidebar = ({children}) => {
 
                     {/* Person*/}
 
-                    <Link href='/'>
+                    <Link href='/customers'>
                         <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
                             <RxPerson size={20} />
                         </div>
@@ -44,7 +44,7 @@ const Sidebar = ({children}) => {
 
                     {/*  shopping */}
 
-                    <Link href='/'>
+                    <Link href='/orders'>
                         <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
                             <HiOutlineShoppingBag size={20} />
                         </div>
@@ -52,7 +52,7 @@ const Sidebar = ({children}) => {
 
                     {/*  settings */}
 
-                    <Link href='/'>
+                    <Link href='/settings'>
                         <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
                             <FiSettings size={20} />
                         </div>
