@@ -29,7 +29,7 @@ const Sidebar = ({children}) => {
                     {/*  Dashboard*/}
 
                     <Link href='/'>
-                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
+                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block active:bg-gray-200'>
                             <RxDashboard size={20} />
                         </div>
                     </Link>
@@ -37,7 +37,7 @@ const Sidebar = ({children}) => {
                     {/* Person*/}
 
                     <Link href='/customers'>
-                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
+                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block active:bg-gray-200'>
                             <RxPerson size={20} />
                         </div>
                     </Link>
@@ -45,7 +45,7 @@ const Sidebar = ({children}) => {
                     {/*  shopping */}
 
                     <Link href='/orders'>
-                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
+                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block active:bg-gray-200'>
                             <HiOutlineShoppingBag size={20} />
                         </div>
                     </Link>
@@ -53,7 +53,7 @@ const Sidebar = ({children}) => {
                     {/*  settings */}
 
                     <Link href='/settings'>
-                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block'>
+                        <div className='bg-gray-100 cursor-pointer hover:bg-gray-200 my-4 p-3 rounded-lg inline-block active:bg-gray-200'>
                             <FiSettings size={20} />
                         </div>
                     </Link>
